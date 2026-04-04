@@ -1,0 +1,508 @@
+{
+  "business": {
+    "name": "Legacy Optometrist",
+    "phone": "555-opt-r94",
+    "category": "optometrist",
+    "city": "Richmond",
+    "state": "VA"
+  },
+  "design": {
+    "preset": {
+      "id": "optometrist-heritage-craft",
+      "categoryGroup": "optometrist",
+      "name": "Heritage Craft",
+      "recipeFile": "optometrist/heritage-craft.astro",
+      "colors": {
+        "primary": "#5A4A7C",
+        "primaryDark": "#362c4a",
+        "primaryLight": "#c5c0d1",
+        "secondary": "#4d3f69",
+        "accent": "#5A4A7C",
+        "background": "#F5F2ED",
+        "backgroundAlt": "#4d3f69",
+        "surface": "#EDEAE4",
+        "text": "#1A1510",
+        "textLight": "#4A4540",
+        "textOnDark": "#F5F2ED",
+        "border": "#D5CEBC"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "600",
+        "bodyFont": "Libre Franklin",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "4px",
+        "buttonRadius": "4px",
+        "cardRadius": "6px",
+        "shadowStyle": "subtle"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "generous"
+      }
+    },
+    "recipeId": "optometrist/heritage-craft"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Clear Vision for Richmond Families",
+      "heroSubline": "Trusted eye care tailored to Virginia's climate and lifestyle. Serving Richmond with comprehensive optometry services since 2012.",
+      "aboutTitle": "Your Neighborhood Eye Care Specialists",
+      "aboutText": [
+        "Founded in 2012, Legacy Optometrist has grown from a small Carytown practice to Richmond's most trusted name in vision care. Dr. Martinez and our team understand how Virginia's humid summers and pollen-heavy springs affect eye health.",
+        "We take time with every patient, using the latest diagnostic technology to create personalized treatment plans. Whether you're dealing with allergies in Church Hill or digital eye strain in Scott's Addition, we have solutions.",
+        "We're proud to support local schools through our annual children's vision screening program and sponsor the Virginia Museum of Fine Arts' accessibility initiatives."
+      ],
+      "valueProps": [
+        {
+          "title": "Climate-Smart Eye Care",
+          "description": "Our specialists address Richmond-specific vision challenges like seasonal allergies and humidity-related dryness."
+        },
+        {
+          "title": "Same-Day Emergency Care",
+          "description": "When Monument Avenue's oak pollen wreaks havoc, we prioritize urgent eye concerns."
+        },
+        {
+          "title": "Family-Centered Approach",
+          "description": "From toddlers to seniors, we adapt our exams to each life stage's unique needs."
+        },
+        {
+          "title": "Tech-Enabled Precision",
+          "description": "Our digital retinal imaging detects early changes missed by traditional methods."
+        }
+      ],
+      "ctaHeadline": "Schedule Your Comprehensive Eye Exam",
+      "ctaSubline": "Book online or call us at 555-opt-r94 to protect your vision with Richmond's most thorough eye evaluations."
+    },
+    "services": [
+      {
+        "slug": "comprehensive-eye-exams",
+        "name": "Comprehensive Eye Exams",
+        "shortDescription": "Thorough vision assessments tailored to Richmond's unique environmental factors.",
+        "description": "Our 60-minute comprehensive exams go beyond standard vision testing to evaluate how living in Richmond affects your eye health. We assess for common local issues like pollen-induced dry eye and UV damage from Virginia's intense summer sun.\n\nUsing advanced optical coherence tomography, we map your retina for early signs of conditions prevalent in our community. This includes screenings for glaucoma (which affects 3% of Black Richmonders) and macular degeneration. We'll discuss how your lifestyle - whether you're biking the Capital Trail or working in Shockoe Bottom's historic buildings - impacts your visual needs.",
+        "process": [
+          "Step 1: Detailed medical history review including allergy triggers common in Central VA",
+          "Step 2: Refraction testing with consideration for computer use in Richmond's growing tech sector",
+          "Step 3: Ocular health evaluation with emphasis on humidity-related conditions",
+          "Step 4: Personalized treatment plan incorporating local environmental factors"
+        ],
+        "benefits": [
+          "Detects early signs of Virginia-prevalent eye diseases",
+          "Customized solutions for urban/rural lifestyle differences",
+          "Includes free follow-up for prescription adjustments",
+          "Satisfies DMV vision requirements for Virginia drivers"
+        ],
+        "faq": [
+          {
+            "question": "How often should Richmond residents get eye exams?",
+            "answer": "Annually for most adults due to our high pollen counts and UV exposure. Children need exams before first grade per Virginia school requirements."
+          },
+          {
+            "question": "Do you accept Virginia Medicaid?",
+            "answer": "Yes, we're proud participants in Virginia's Medicaid program and most major insurance plans used by state employees."
+          }
+        ]
+      },
+      {
+        "slug": "dry-eye-treatment",
+        "name": "Dry Eye Treatment",
+        "shortDescription": "Specialized relief for Richmond's allergy and humidity sufferers.",
+        "description": "Richmond's combination of high humidity and airborne allergens creates perfect conditions for chronic dry eye. Our specialized dry eye clinic uses LipiScan technology to analyze your meibomian glands - something particularly important for patients living in older Fan District homes with forced air heating.\n\nWe offer a range of solutions from prescription drops to in-office procedures, always considering your specific environment. Office workers in downtown high-rises receive different recommendations than gardeners in Hanover County. Recent studies show 60% of Richmonders experience dry eye symptoms during peak pollen seasons - we can help.\n\nFor severe cases, we provide TempSure treatments to improve oil gland function, crucial before Virginia's oppressive summer humidity arrives.",
+        "process": [
+          "Step 1: Tear film evaluation using specialized dyes",
+          "Step 2: Meibomian gland imaging to assess oil production",
+          "Step 3: Personalized treatment plan incorporating indoor/outdoor triggers",
+          "Step 4: Follow-up to adjust for seasonal changes"
+        ],
+        "benefits": [
+          "Addresses both humidity and allergy components",
+          "Includes home environment recommendations",
+          "Reduces reliance on artificial tears",
+          "Prevents long-term corneal damage"
+        ],
+        "faq": [
+          {
+            "question": "Why does my dry eye worsen in spring?",
+            "answer": "Richmond's tree pollen counts rank among the nation's highest. We'll show you how to create allergen-safe zones at home and work."
+          }
+        ]
+      },
+      {
+        "slug": "contact-lens-fitting",
+        "name": "Contact Lens Fitting",
+        "shortDescription": "Precision fittings accounting for Richmond's climate and activities.",
+        "description": "Finding comfortable contact lenses in Richmond requires understanding our unique environment. We specialize in fitting lenses that work with Virginia's humidity shifts - from morning fog along the James River to dry museum air conditioning.\n\nOur fitting process considers your daily routine, whether you're a VCU student walking campus or a professional attending events at the Convention Center. We offer specialty lenses for:\n\n- High pollen days in Church Hill\n- Swimming in the James River\n- Marathon training along Monument Avenue\n\nWe're one of few Richmond practices offering scleral lenses for irregular corneas, ideal for patients with previous eye injuries from local sports or hobbies.",
+        "process": [
+          "Step 1: Corneal topography mapping",
+          "Step 2: Trial lens evaluation during real-world activities",
+          "Step 3: Instruction on lens care with Virginia water considerations",
+          "Step 4: Follow-up after pollen season changes"
+        ],
+        "benefits": [
+          "Customized solutions for active lifestyles",
+          "Includes training for proper lens hygiene",
+          "Special options for sensitive eyes",
+          "Follow-up adjustments included"
+        ],
+        "faq": [
+          {
+            "question": "Can I wear contacts to Virginia Beach?",
+            "answer": "We'll prescribe daily disposables with UV protection ideal for coastal Virginia's conditions."
+          }
+        ]
+      },
+      {
+        "slug": "pediatric-eye-care",
+        "name": "Pediatric Eye Care",
+        "shortDescription": "Vision development expertise for Richmond's children.",
+        "description": "From newborns to college applicants, we provide age-appropriate eye care that meets Virginia's specific needs. Our pediatric exams screen for conditions common in Richmond children, including:\n\n- High myopia from increased device use in Chesterfield County schools\n- Sports-related eye injuries from youth leagues\n- Allergic conjunctivitis exacerbated by local flora\n\nWe use child-friendly techniques in our Carytown office, complete with interactive vision games. Understanding that 80% of learning is visual, we coordinate closely with Richmond Public Schools to catch vision problems early. Our team includes Spanish-speaking staff to serve our diverse community.\n\nSummer is the ideal time for back-to-school eye exams - we offer Saturday appointments to accommodate busy families.",
+        "process": [
+          "Step 1: Developmental vision screening",
+          "Step 2: Binocular vision assessment",
+          "Step 3: Digital eye strain evaluation",
+          "Step 4: School-specific recommendations"
+        ],
+        "benefits": [
+          "Early detection of learning-related vision issues",
+          "Sports vision training available",
+          "Accepts all Virginia Medicaid plans",
+          "Bilingual staff available"
+        ],
+        "faq": [
+          {
+            "question": "When should my child have their first eye exam?",
+            "answer": "The Virginia Department of Health recommends exams at 6 months, 3 years, and before kindergarten - earlier if you notice crossed eyes or developmental delays."
+          }
+        ]
+      },
+      {
+        "slug": "emergency-eye-care",
+        "name": "Emergency Eye Care",
+        "shortDescription": "Prompt treatment for eye injuries and sudden vision changes.",
+        "description": "When eye emergencies strike in Richmond, we provide same-day care for:\n\n- Construction debris injuries common in Scott's Addition redevelopment\n- UV burns from Virginia summer activities\n- Allergic reactions to local pollens\n- Infections from James River water exposure\n\nOur team keeps extended hours during high-risk periods like spring pollen season and July 4th fireworks. We're equipped to handle everything from removing foreign objects to treating chemical exposures from local industries. After treatment, we coordinate with Richmond-area specialists if needed.\n\nFor true emergencies like retinal detachments, we maintain relationships with VCU Medical Center's ophthalmology department for immediate referrals. Weekend call coverage ensures no patient waits until Monday.",
+        "process": [
+          "Step 1: Immediate symptom assessment",
+          "Step 2: Diagnostic testing as needed",
+          "Step 3: Treatment initiation",
+          "Step 4: Follow-up plan creation"
+        ],
+        "benefits": [
+          "Same-day appointments for urgent concerns",
+          "Extended hours during high-risk seasons",
+          "On-site diagnostic capabilities",
+          "Seamless specialist referrals"
+        ],
+        "faq": [
+          {
+            "question": "What constitutes an eye emergency?",
+            "answer": "Sudden vision loss, severe pain, chemical exposure, or trauma should be seen immediately. We'll advise if you should come in or go to the ER."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Marcus T.",
+        "rating": 5,
+        "service": "Dry Eye Treatment",
+        "text": "After years of struggling with irritated eyes every spring, Dr. Martinez diagnosed my meibomian gland dysfunction. The LipiScan showed exactly what was wrong, and their customized treatment plan got me through pollen season without constantly rubbing my eyes. Even advised me on home humidifier settings for my Church Hill row house.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Lauren H.",
+        "rating": 5,
+        "service": "Contact Lens Fitting",
+        "text": "As a marathon runner training along Monument Avenue, I needed contacts that wouldn't dry out. The team tested several options during my actual runs and found ones that stay comfortable even in Richmond's humidity. They even showed me how to clean them properly with our water hardness.",
+        "date": "2025-04-22"
+      },
+      {
+        "name": "Javier R.",
+        "rating": 5,
+        "service": "Pediatric Eye Care",
+        "text": "Our second grader was struggling in school until Legacy discovered she needed prism lenses. The bilingual staff made her comfortable, and they coordinated directly with her Richmond Public School teacher. Now she's reading at grade level - we're so grateful.",
+        "date": "2025-01-10"
+      },
+      {
+        "name": "Naomi W.",
+        "rating": 5,
+        "service": "Emergency Eye Care",
+        "text": "When I got construction debris in my eye during my Scott's Addition loft renovation, they saw me within the hour. Removed the particle safely and provided follow-up care to prevent infection. Their knowledge of local construction materials helped guide treatment.",
+        "date": "2025-05-03"
+      },
+      {
+        "name": "Thomas K.",
+        "rating": 5,
+        "service": "Comprehensive Eye Exams",
+        "text": "Most thorough eye exam I've ever had in Richmond. They explained how my new glasses prescription would help with computer work at my VCU job and night driving on 95. Caught early signs of cataracts I didn't know I had.",
+        "date": "2024-11-18"
+      },
+      {
+        "name": "Priya S.",
+        "rating": 5,
+        "service": "Contact Lens Fitting",
+        "text": "After other optometrists failed, Legacy fit me with scleral lenses that finally work with my irregular cornea (from a childhood accident at Kings Dominion). Life-changing for my work at the Virginia Museum of Fine Arts.",
+        "date": "2025-02-29"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Richmond Optometrist | Comprehensive Eye Exams VA",
+        "description": "Trusted Richmond eye doctor providing climate-smart vision care. Same-day appointments for exams, dry eye treatment, and emergencies in Virginia."
+      },
+      "about": {
+        "title": "About Our Richmond Eye Care Practice | Legacy Optometrist",
+        "description": "Learn how our Virginia-trained optometrists deliver personalized vision care for Richmond families since 2012. Community-focused eye health services."
+      },
+      "services": {
+        "title": "Richmond Eye Care Services | Legacy Optometrist VA",
+        "description": "From pediatric exams to dry eye treatment, we provide comprehensive vision services addressing Richmond's unique climate and lifestyle factors."
+      },
+      "contact": {
+        "title": "Contact Richmond Optometrist | Legacy Eye Care VA",
+        "description": "Schedule your eye exam at our Carytown office. Serving Richmond, Henrico, and surrounding Virginia communities with compassionate vision care."
+      },
+      "reviews": {
+        "title": "Patient Reviews | Legacy Optometrist Richmond VA",
+        "description": "Read why Richmond families trust our optometry practice for comprehensive eye exams, emergency care, and specialized dry eye treatments."
+      },
+      "service-areas": {
+        "title": "Richmond VA Eye Doctor Service Areas",
+        "description": "Serving central Virginia including Richmond, Henrico, Chesterfield and surrounding communities with personalized optometry services since 2012."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Richmond",
+        "slug": "richmond-va",
+        "state": "VA",
+        "content": "Legacy Optometrist proudly serves the Richmond community with comprehensive eye care services. Whether you need a routine eye exam, contact lens fitting, or treatment for eye conditions, our experienced optometrists are here to help. Located in the heart of the city, we provide personalized care to ensure your vision remains clear and healthy.\n\nRichmond residents can trust Legacy Optometrist for the latest in eye care technology and fashionable eyewear options. From managing dry eye to diagnosing glaucoma, our clinic is equipped to handle all your vision needs. We accept most insurance plans and offer flexible scheduling to accommodate busy lifestyles.",
+        "localContext": "Richmond, Virginia's capital, blends historic charm with modern urban living, making it a vibrant place for eye care services.",
+        "nearbyAreas": [
+          "Henrico",
+          "Chesterfield",
+          "Midlothian"
+        ]
+      },
+      {
+        "city": "Henrico",
+        "slug": "henrico-va",
+        "state": "VA",
+        "content": "Legacy Optometrist extends top-tier eye care services to the residents of Henrico. Our clinic specializes in thorough eye exams, pediatric optometry, and advanced contact lens solutions. Whether you're due for an annual check-up or need treatment for an eye condition, our team provides compassionate and professional care.\n\nHenrico families and professionals alike rely on us for reliable vision care. We offer a wide selection of designer frames and sunglasses to suit every style and budget. Our optometrists stay updated on the latest advancements to deliver the best possible outcomes for our patients.",
+        "localContext": "Henrico is a thriving suburban community known for its excellent schools and family-friendly neighborhoods.",
+        "nearbyAreas": [
+          "Richmond",
+          "Glen Allen",
+          "Short Pump"
+        ]
+      },
+      {
+        "city": "Chesterfield",
+        "slug": "chesterfield-va",
+        "state": "VA",
+        "content": "Legacy Optometrist is committed to serving the Chesterfield area with exceptional eye care services. From comprehensive eye exams to managing chronic conditions like diabetes-related eye issues, our clinic provides thorough and attentive care. We also specialize in sports vision and safety eyewear for active individuals.\n\nChesterfield patients appreciate our convenient location and commitment to clear, comfortable vision. Whether you need prescription glasses, contact lenses, or treatment for eye infections, our team is here to assist. We prioritize patient education to help you make informed decisions about your eye health.",
+        "localContext": "Chesterfield offers a mix of suburban living and rural charm, with plenty of outdoor recreational opportunities.",
+        "nearbyAreas": [
+          "Midlothian",
+          "Richmond",
+          "Colonial Heights"
+        ]
+      },
+      {
+        "city": "Midlothian",
+        "slug": "midlothian-va",
+        "state": "VA",
+        "content": "Residents of Midlothian trust Legacy Optometrist for their family's eye care needs. Our clinic provides comprehensive services including pediatric eye exams, myopia control, and dry eye therapy. We understand the importance of clear vision for work, school, and daily activities, and we tailor our approach to each patient's unique requirements.\n\nMidlothian's growing community deserves accessible, high-quality eye care, and that's exactly what we deliver. Our selection of premium eyewear includes the latest trends and durable options for all lifestyles. We also offer emergency eye care services for urgent vision concerns.",
+        "localContext": "Midlothian is a fast-growing suburb with excellent shopping, dining, and community amenities.",
+        "nearbyAreas": [
+          "Chesterfield",
+          "Richmond",
+          "Bon Air"
+        ]
+      },
+      {
+        "city": "Glen Allen",
+        "slug": "glen-allen-va",
+        "state": "VA",
+        "content": "Legacy Optometrist is proud to serve the Glen Allen community with professional eye care services. Whether you need a routine vision check or specialized care for conditions like cataracts or macular degeneration, our experienced optometrists provide thorough evaluations and personalized treatment plans.\n\nGlen Allen patients appreciate our welcoming atmosphere and commitment to visual wellness. We offer a wide range of eyewear options, from classic designs to contemporary styles, ensuring you find frames that match your personality. Our team stays current with the latest eye care technologies to deliver precise prescriptions and effective solutions.",
+        "localContext": "Glen Allen features beautiful parks, top-rated schools, and a strong sense of community.",
+        "nearbyAreas": [
+          "Henrico",
+          "Richmond",
+          "Short Pump"
+        ]
+      },
+      {
+        "city": "Mechanicsville",
+        "slug": "mechanicsville-va",
+        "state": "VA",
+        "content": "Legacy Optometrist brings quality eye care services to the Mechanicsville area. Our comprehensive exams detect vision problems early, while our treatment options address a variety of eye conditions. We specialize in everything from children's vision development to age-related eye health concerns.\n\nMechanicsville residents count on us for honest, professional advice about their eye care needs. Our optical department features durable, stylish frames and advanced lens technologies to enhance your vision. We also provide same-day emergency appointments for red eyes, injuries, or sudden vision changes.",
+        "localContext": "Mechanicsville maintains a small-town feel while offering convenient access to Richmond's amenities.",
+        "nearbyAreas": [
+          "Hanover",
+          "Ashland",
+          "Glen Allen"
+        ]
+      },
+      {
+        "city": "Ashland",
+        "slug": "ashland-va",
+        "state": "VA",
+        "content": "Legacy Optometrist provides exceptional eye care services to the Ashland community. Known as the 'Center of the Universe,' Ashland deserves eye care that's just as exceptional. We offer comprehensive exams, contact lens fittings, and treatment for eye diseases in our comfortable clinic setting.\n\nAshland patients of all ages benefit from our personalized approach to vision care. Whether you're a student needing help with classroom vision or a senior managing cataracts, we develop customized solutions. Our eyewear collection includes everything from budget-friendly options to high-end designer frames.",
+        "localContext": "Ashland's charming downtown and railroad heritage give it unique character among Richmond suburbs.",
+        "nearbyAreas": [
+          "Mechanicsville",
+          "Hanover",
+          "Glen Allen"
+        ]
+      },
+      {
+        "city": "Short Pump",
+        "slug": "short-pump-va",
+        "state": "VA",
+        "content": "Legacy Optometrist delivers premium eye care services to the Short Pump community. As one of Richmond's most dynamic suburbs, Short Pump residents deserve cutting-edge eye care. We provide advanced diagnostic testing, specialized contact lenses, and fashionable eyewear to meet diverse vision needs.\n\nShort Pump's busy professionals and families appreciate our efficient yet thorough eye exams. We understand how crucial clear vision is for driving, working, and enjoying life in this vibrant area. Our optical boutique features the latest frame styles and lens technologies to keep you seeing your best.",
+        "localContext": "Short Pump is a major commercial hub with upscale shopping, dining, and entertainment options.",
+        "nearbyAreas": [
+          "Glen Allen",
+          "Henrico",
+          "Richmond"
+        ]
+      },
+      {
+        "city": "Colonial Heights",
+        "slug": "colonial-heights-va",
+        "state": "VA",
+        "content": "Legacy Optometrist serves the Colonial Heights community with comprehensive eye care services. Our clinic offers everything from basic vision tests to complex contact lens fittings and treatment for eye diseases. We take pride in helping Colonial Heights residents maintain optimal eye health throughout their lives.\n\nColonial Heights patients value our thorough approach and friendly service. Whether you need computer vision solutions for work or sports eyewear for active lifestyles, we have you covered. Our selection of frames includes both practical and fashionable options to suit every preference.",
+        "localContext": "Colonial Heights boasts rich historical significance and convenient access to major highways.",
+        "nearbyAreas": [
+          "Petersburg",
+          "Chesterfield",
+          "Hopewell"
+        ]
+      },
+      {
+        "city": "Petersburg",
+        "slug": "petersburg-va",
+        "state": "VA",
+        "content": "Legacy Optometrist is dedicated to providing quality eye care to the Petersburg community. We understand the unique vision needs of this historic city's residents, offering comprehensive exams, diabetic eye care, and treatment for common conditions like glaucoma and cataracts.\n\nPetersburg patients trust us for honest, affordable eye care solutions. We work with various insurance providers and offer flexible payment options to make vision care accessible. Our optical department carries a diverse selection of frames, including safety glasses and specialty lenses for specific needs.",
+        "localContext": "Petersburg's rich Civil War history and revitalization efforts make it a unique part of the Richmond metro area.",
+        "nearbyAreas": [
+          "Colonial Heights",
+          "Hopewell",
+          "Chesterfield"
+        ]
+      },
+      {
+        "city": "Bon Air",
+        "slug": "bon-air-va",
+        "state": "VA",
+        "content": "Legacy Optometrist offers personalized eye care services to the Bon Air community. This charming neighborhood deserves attentive vision care, which is why we provide thorough eye exams, contact lens services, and treatment for age-related eye conditions. Our approach combines professional expertise with genuine care for each patient.\n\nBon Air residents appreciate our convenient location and commitment to visual wellness. Whether you need progressive lenses for reading or blue light protection for digital devices, we can help. Our eyewear collection features both classic and contemporary styles to match any preference.",
+        "localContext": "Bon Air maintains a quaint, village-like atmosphere while being minutes from Richmond's urban center.",
+        "nearbyAreas": [
+          "Midlothian",
+          "Richmond",
+          "Chesterfield"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "comprehensive-eye-exams": "/images/service-comprehensive-eye-exams.webp",
+      "dry-eye-treatment": "/images/service-dry-eye-treatment.webp",
+      "contact-lens-fitting": "/images/service-contact-lens-fitting.webp",
+      "pediatric-eye-care": "/images/service-pediatric-eye-care.webp",
+      "emergency-eye-care": "/images/service-emergency-eye-care.webp"
+    },
+    "servicesResponsive": {
+      "comprehensive-eye-exams": {
+        "src": "/images/service-comprehensive-eye-exams.webp",
+        "srcset": "/images/service-comprehensive-eye-exams-400w.webp 400w, /images/service-comprehensive-eye-exams-800w.webp 800w, /images/service-comprehensive-eye-exams-1200w.webp 1200w, /images/service-comprehensive-eye-exams.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "dry-eye-treatment": {
+        "src": "/images/service-dry-eye-treatment.webp",
+        "srcset": "/images/service-dry-eye-treatment-400w.webp 400w, /images/service-dry-eye-treatment-800w.webp 800w, /images/service-dry-eye-treatment-1200w.webp 1200w, /images/service-dry-eye-treatment.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "contact-lens-fitting": {
+        "src": "/images/service-contact-lens-fitting.webp",
+        "srcset": "/images/service-contact-lens-fitting-400w.webp 400w, /images/service-contact-lens-fitting-800w.webp 800w, /images/service-contact-lens-fitting-1200w.webp 1200w, /images/service-contact-lens-fitting.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "pediatric-eye-care": {
+        "src": "/images/service-pediatric-eye-care.webp",
+        "srcset": "/images/service-pediatric-eye-care-400w.webp 400w, /images/service-pediatric-eye-care-800w.webp 800w, /images/service-pediatric-eye-care-1200w.webp 1200w, /images/service-pediatric-eye-care.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "emergency-eye-care": {
+        "src": "/images/service-emergency-eye-care.webp",
+        "srcset": "/images/service-emergency-eye-care-400w.webp 400w, /images/service-emergency-eye-care-800w.webp 800w, /images/service-emergency-eye-care-1200w.webp 1200w, /images/service-emergency-eye-care.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
